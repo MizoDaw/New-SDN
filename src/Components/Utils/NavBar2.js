@@ -6,7 +6,6 @@ import BtnTranslate from './BtnTranslate'
 import { useTranslation } from 'react-i18next'
 import MenuService from '../ui/Menu'
 import useHover from '../../hooks/useHover'
-import BlackLogo from '../../../public/BlackLogo'
 
 function NavBar2() {
   const [t] = useTranslation();

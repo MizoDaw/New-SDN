@@ -7,6 +7,7 @@ import FirstServiceFourInfo from '../../Components/Services/FirstServiceFourInfo
 import ServiceOverAll from '../../Components/Services/ServiceOverAll'
 import ThirdPageService from '../../Components/Services/ThirdPageService'
 import Hajeat from './FirstService/Hajeat'
+import Haje from './FirstService/Haje'
 import { ForthServicesPage } from '../../Components/Services/ForthServicesPage'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
@@ -86,7 +87,8 @@ function FirstService({data , data2 , data3}) {
 
           <Hajeat/>
 
-          <img src='../Services/Services1/Haje.webp' alt='' className='Haje' />
+          {/* <img src={<Haje/>} alt='' className='Haje' /> */}
+          <Haje/>
 
         </div>
         <div className='FirstService_Body'>
@@ -144,7 +146,7 @@ function FirstService({data , data2 , data3}) {
       </div> 
         <ThirdPageService data={data2} />
         </div>  
-        <ForthServicesPage data={data3}/>
+        {/* <ForthServicesPage data={data3}/> */}
 
         <Footer/>
     </div>

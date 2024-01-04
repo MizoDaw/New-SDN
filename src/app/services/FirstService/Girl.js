@@ -14,6 +14,30 @@ const Girl = () => {
     <image
       id="Orange_Girl"
       className='Orange_Girl'
+      width={545}
+      height={1122}
+      transform="translate(-2317 -1018)"
+      opacity="0.03"
+      xlinkHref="../Services/Services3/OrangeGirl.png"
+
+    />
+    <image
+      id="Girl_Logo"
+      className='Normal_Girl'
+      width={545}
+      height={1122}
+      transform="translate(-2317 -1018)"
+      xlinkHref="../Services/Services2/GrayGirl.png"
+    />
+  </g>
+</svg>
+  )
+}
+
+export default Girl
+{/* <image
+      id="Orange_Girl"
+      className='Orange_Girl'
       width={635}
       height={1122}
       transform="translate(-2317 -1018)"
@@ -22,17 +46,12 @@ const Girl = () => {
 
     />
     <image
-      id="Girl_Logo"
-      className='Normal_Girl'
+      id="NewGirl"
+      className=''
       width={635}
       height={1122}
       transform="translate(-2317 -1018)"
-      xlinkHref="../Services/Services2/Girl_Logo.webp"
+      
+      xlinkHref="../Services/Services2/NewGirl.png"
 
-    />
-  </g>
-</svg>
-  )
-}
-
-export default Girl
+    /> */}

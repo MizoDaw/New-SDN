@@ -47,6 +47,9 @@
     font-family: Poppins;
     font-weight: bolder !important;
     font-display: swap;
+    .BlackLogo{
+        width: 15%;
+    }
         .Links{
             display: flex;
             justify-content: center; 
@@ -185,7 +188,6 @@
     display: flex;
     justify-content: center; 
     align-items: center;
-    width: 4vw !important;
     height: 5vw;
     padding-top: 1vw;
 } 

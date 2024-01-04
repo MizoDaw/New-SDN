@@ -21,12 +21,11 @@ function Works() {
     
     <div className="work_page">
       <NavBar />
-      {/* <img className="works_img" src="../Works/Works_BG.jpg" alt=""/> */}
-      <img className="works_img" src="../works/OurWorks.webp" alt=""/>
-      {/* <div className="OUR_PROJECTS">
+      <img className="works_img" src="../works/Works.jpg" alt=""/>
+      <div className="OUR_PROJECTS">
         <p className="OUR">{t("OUR")}</p>
         <p className="PROJECTS">{t("PROJECTS")}</p>
-      </div> */}
+      </div>
       <div className="text_works">
         <p className="text_first">{t("OverAll")}</p>
         <p className="text_second">

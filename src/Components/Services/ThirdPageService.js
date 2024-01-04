@@ -33,7 +33,7 @@ function ThirdPageService({data}) {
         <div className='ThirdService_page' id='ThirdService_page' >
             <div className='Services3_Elements'>
                 <div className='Services3_Elements_Container'>
-                    <img src='../Services/Services3/3Services_4.svg' alt='' className='Elements3 ' onClick={()=>Transion_page4()} />
+                    {/* <img src='../Services/Services3/3Services_4.svg' alt='' className='Elements3 ' onClick={()=>Transion_page4()} /> */}
                     <img src='../Services/Services3/Polygon4.svg' alt='' className='Polygon4_Right ' />
                 </div>
 

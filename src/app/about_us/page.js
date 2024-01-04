@@ -16,12 +16,13 @@ function AboutUs() {
   return (
     <div className='AboutUs_page'>
       <NavBar/>
-      {/* <div className='ABOUT_US_WORD'>
+      <div className='ABOUT_US_WORD'>
         <p className='ABOUT'>{t("ABOUT")}</p>
-        <p className='US'>{t("USs")}</p>
-      </div> */}
+        <p className='US'>{t("Us")}</p>
+      </div>
+      <img src='SDN-Logo.png' className='SDN_Logo'/>
       <div className='AboutUs_BG'>      
-        <img src='../AboutUs/About_US.webp' className='image-about-us' alt='image-about-us'/>
+        <img src='../AboutUs/AboutUs.jpg' className='image-about-us' alt='image-about-us'/>
         </div>
         <div className='AboutUs_mid_section'>
         <p className='AboutUs_p'> 

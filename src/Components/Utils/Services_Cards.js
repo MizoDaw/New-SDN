@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 import useHover from "../../hooks/useHover"
 
 
-const Services_Cards = ({ Key, Word1, Word2 ,t,className=""}) => {
+const Services_Cards = ({ Key, Word1, Word2 ,t,className="",num}) => {
     const { isHovered, handleMouseEnter, handleMouseLeave } = useHover();
     const isHoveredClassName = isHovered ? `Card_1 Card_1_Hovered` : `Card_1`;
     const router = useRouter()
@@ -42,7 +42,7 @@ const Services_Cards = ({ Key, Word1, Word2 ,t,className=""}) => {
                 >
                     <div className={"Card_2_Top " +className}>
 
-                        <h1>{Key}</h1>
+                        <h1>{num}</h1>
                         <div className="Card_2_Top_Word">
                             <h2>{t(Word1)}</h2>
                             <h3>{t(Word2)}</h3>

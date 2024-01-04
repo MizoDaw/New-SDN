@@ -87,7 +87,7 @@ function FirstService({data , data2 , data3}) {
 
           <Hajeat/>
 
-          {/* <img src={<Haje/>} alt='' className='Haje' /> */}
+          <img src='../Services/Services1/Polygon.png' alt='' className='Haje' />
           <Haje/>
 
         </div>

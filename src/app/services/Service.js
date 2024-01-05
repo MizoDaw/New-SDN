@@ -86,8 +86,8 @@ function FirstService({data , data2 , data3}) {
         <div className='FirstService_Images'>
 
           <Hajeat/>
+          <img src='/Services/Services1/Polygon.png' alt='' className='Haje' />
 
-          <img src='../Services/Services1/Polygon.png' alt='' className='Haje' />
           <Haje/>
 
         </div>

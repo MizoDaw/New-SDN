@@ -28,7 +28,7 @@ function NavBar2() {
                 <Link  href={'/about_us'}  >{t('ABOUT US')}</Link>
                 <Link  href={'meet_us'}  >{t('MEET US')}</Link>
             </div>
-           
+              
             <BtnTranslate/>
           </div>
 

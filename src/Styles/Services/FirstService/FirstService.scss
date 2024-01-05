@@ -76,6 +76,13 @@
    display: block;  
    align-self: flex-end;
    }
+   .LogoShades{
+    width: 20vw;
+    align-self: flex-end;
+    transition: .5s ease-in-out; 
+    transform: translate(0vw,55vw) !important;
+    position: absolute;
+   }
 }
 
 .Services_Pages{

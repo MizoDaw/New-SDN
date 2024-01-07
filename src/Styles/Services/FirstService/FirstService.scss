@@ -68,20 +68,17 @@
     height: 45vw;
     z-index: 0;
    }
-   .Haje{   
-    float: right;
-   width: 20%;
-   transform: translate(0vw,-16vw) !important;
-   transition: .5s ease-in-out; 
-   display: block;  
-   align-self: flex-end;
-   }
-   .LogoShades{
+   .Haje, .LogoShades{
     width: 20%;
+    height: 55vw;
     align-self: flex-end;
     transition: .5s ease-in-out; 
-    transform: translate(0vw,55vw) !important;
+    transform: translate(0vw,35vw);
     position: absolute;
+   }
+   .LogoShades{
+    transform: translate(0vw,55vw) !important;
+    height: 50vw;
    }
 }
 

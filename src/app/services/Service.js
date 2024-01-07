@@ -75,8 +75,6 @@ function FirstService({data , data2 , data3}) {
     document.getElementById("Element1").src = "../Services/Services_Elements/2_Section1.svg"
     document.getElementById("Element2").src = "../Services/Services_Elements/2_Section2.svg"
     }
-   
-   
   }
   return (
     <div className='Services_Pages' id='Transion_page'>

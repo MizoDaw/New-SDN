@@ -61,7 +61,7 @@ const MeetUs = () => {
       <div className='MeetUs'>
         <NavBar />
         <div className={`MeetUs_BG ${gradianClass} BG_Animation`} id='MeetUs_BG'>
-          <MeatUS_BG />
+          {/* <MeatUS_BG /> */}
           <Gradian />
         </div>
         <div className='MEET_US_WORD'>

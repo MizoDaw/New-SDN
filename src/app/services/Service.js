@@ -16,6 +16,7 @@ import { BaseURL } from '../../api/config'
 
 
 function FirstService({data , data2 , data3}) {
+
   const router = useSearchParams();
 
   
@@ -44,8 +45,8 @@ function FirstService({data , data2 , data3}) {
     setTimeout(() => {
       document.getElementById("Transion_page").classList.add("Timer")
     }, "500");
-
   }
+  
   const Transtion_Page3 = () => {
     document.getElementById("Transion_page").classList.add("Transion_page3")
     document.getElementById('ThirdService_page').style.display ='block'
@@ -86,7 +87,7 @@ function FirstService({data , data2 , data3}) {
         <div className='FirstService_Images'>
 
           <Hajeat/>
-          <img src='/Services/Services1/Polygon.png' alt='' className='Haje' />
+          <img src='/Services/Services1/Polygon 2.png' alt='' className='Haje' />
 
           <Haje/>
 

@@ -9,7 +9,6 @@ import ThirdPageService from '../../Components/Services/ThirdPageService'
 import Hajeat from './FirstService/Hajeat'
 import Haje from './FirstService/Haje'
 import Polygon from './FirstService/Polygon'
-import { ForthServicesPage } from '../../Components/Services/ForthServicesPage'
 import { useTranslation } from 'react-i18next'
 import { useRouter } from 'next/router'
 import { useSearchParams } from 'next/navigation'
@@ -86,9 +85,9 @@ function FirstService({data , data2 , data3}) {
         <div className='FirstService_Images'>
 
           <Hajeat/>
-          <img src='/Services/Services1/Polygon 4.png' alt='' className='Haje' />
-          {/* <Polygon/> */}
-          {/* <Haje/> */}
+          {/* <img src='/Services/Services1/Polygon 4.png' alt='' className='Haje' /> */}
+          <Polygon/>
+          <Haje/>
 
         </div>
         <div className='FirstService_Body'>
@@ -146,7 +145,6 @@ function FirstService({data , data2 , data3}) {
       </div> 
         <ThirdPageService data={data2} />
         </div>  
-        {/* <ForthServicesPage data={data3}/> */}
 
         <Footer/>
     </div>

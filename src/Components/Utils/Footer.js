@@ -14,7 +14,7 @@ const Footer = () => {
     return (
         <div className='Footer'>
             <div className='Footer_Left'>
-                <img className='Logo_image_footer' src='SDN-Logo.png' alt='logo'  />
+                <img className='Logo_image_footer' src='/SDN_logos/whiteLogoWithWord.png' alt='logo'  />
                 <p className='p'>
 
                   {t("SDNone is a creative design agency that specializes in delivering the best full creative branding , logo creation, and posts creation digital design solutions. With a passion for visual aesthetics and a deep understanding of branding strategies, SDNone aims to help businesses establish a strong and impactful brand presence.")}

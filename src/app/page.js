@@ -33,7 +33,7 @@ const Page = () => {
  
   return (
     <div className='HOME_PAGE'>
-      <CheckInternetComponent />
+      {/* <CheckInternetComponent /> */}
       <Home1 t={t}/>
       <Home2 t={t} data={data}/>
       <Home4 t={t}/>

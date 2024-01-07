@@ -156,10 +156,10 @@
             input,
             textarea {
                 padding: 2vw;
-                padding-right: 3.3vw;
-                padding-left: 2.4vw;
+                // padding-right: 3.3vw;
+                // padding-left: 2.4vw;
                 height: 1vw;
-                width: 21vw;
+                width: 22.5vw;
                 margin-bottom: 1.6vw;
                 border-radius: 3vw;
                 background-color: white;
@@ -177,6 +177,11 @@
     }
 }
 
+.ar{
+    .submit_button{
+        // margin-right: -12vw;
+    }
+}
 .Geadian {
     svg {
         color: inherit !important;
@@ -292,6 +297,14 @@
     }
 }
 
+@media screen and (min-width: 501px) {
+
+   .ar{
+        .submit_button{
+            margin-right: -12vw !important;
+        }
+   }
+}
 .MeetUs {
     @include devices(BreakPoints) {
         min-height: 100vh;
@@ -328,9 +341,11 @@
             }
         }
 
+
+
     }
 
-    @media screen and (max-width: 450px) and (min-height: 700px){
+    @media screen and (max-width: 490px) and (min-height: 700px){
         background-color: black;
         min-height: 100vh;
         .MeetUs_BG{
